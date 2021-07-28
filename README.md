@@ -1,3 +1,5 @@
+> This branch is a proof-of-concept modularized fork of the master branch from [angristan/wireguard-install](https://github.com/angristan/wireguard-install). The original script `wireguard-install.sh` is unmodified, and the modularized script is `wireguard-install-split.sh`. With [merge-shell](https://github.com/wpyoga/merge-shell) installed, the correctness of the modularization process can be verified by running `make test` in this directory.
+
 # WireGuard installer
 
 ![Lint](https://github.com/angristan/wireguard-install/workflows/Lint/badge.svg)
